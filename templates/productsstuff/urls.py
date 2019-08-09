@@ -16,11 +16,22 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from cakes.views import index
-from products import urls as urls_products
+from .views import products
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', index, name='index'),
-    url(r'^products/', include(urls_products)),
+    url(r'^products/', products, name='products'),
+]
+
+
+"""
+from django.urls import path
+from .views import get_products, product_detail
+
+urlpatterns = [
+    path('', get_products, name='get_products'),
+    path('<pk>/', product_detail, name='product_detail')
     ]
+"""    
