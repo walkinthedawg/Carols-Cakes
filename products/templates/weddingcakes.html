@@ -1,13 +1,14 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<div id="content">
 <div class="row row-flex">
     {% for product in products %}
         <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
             <div class="panel-body">
-                <div class="product" style="background-image:" ><img src='/static/{{ product.prod_image }}'>
-                <h3>{{ product.name }}</h3>
+                
+                <h1>{{ product.name }}</h1>
+                <img src='/static/{{ product.prod_image }}'>
                 <p class="product-description">{{ product.prod_desc }}</p>
                 <p>{{ product.price }}</p>
 
@@ -25,23 +26,3 @@
     {% endfor %}
 </div>
 {% endblock %}
-
-<div id="content">
-    {% for product in products %}
-		<div>
-			<h1>Carols Cakes</h1>
-			<ul>
-				<li>
-					<div>
-						<div>
-						    <p> <h3>{{ product.name }}</h3></p>
-							<img src='/static/{{ product.prod_image }}'>
-							<p class="product-description">{{ product.prod_desc }}</p>
-                            <p>{{ product.price }}</p>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	{% endfor %}
-</div>
