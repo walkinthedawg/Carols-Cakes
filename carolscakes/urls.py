@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from cakes.views import index
-from products.views import all_products, about, contact, weddingcakes
+from products.views import all_products, about, contact, weddingcakes, birthdaycakes, specialoccasion, sheetcakes
 from products import urls as urls_products
 
 urlpatterns = [
@@ -27,4 +27,7 @@ urlpatterns = [
     url(r'^about', about, name='about'),
     url(r'^contact', contact, name='contact'),
     url(r'^weddingcakes', weddingcakes, name='weddingcakes'),
+    url(r'^birthdaycakes', birthdaycakes, name='birthdaycakes'),
+    url(r'^specialoccasion', specialoccasion, name='specialoccasion'),
+    url(r'^sheetcakes', sheetcakes, name='sheetcakes'),
 ]

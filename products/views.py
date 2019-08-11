@@ -31,3 +31,30 @@ def weddingcakes(request):
     products = Product.objects.all()
     return render(request, "weddingcakes.html", {"products": products})
     
+def birthdaycakes(request):
+    """
+    A view that will return a list of posts that were published
+    prior to 'now' and render these to the 'boardposts.html
+    template.
+    """
+    products = Product.objects.all()
+    return render(request, "birthdaycakes.html", {"products": products})
+    
+def specialoccasion(request):
+    """
+    A view that will return a list of posts that were published
+    prior to 'now' and render these to the 'boardposts.html
+    template.
+    """
+    products = Product.objects.all()
+    return render(request, "specialoccasion.html", {"products": products})
+    
+def sheetcakes(request):
+    """
+    A view that will return a list of posts that were published
+    prior to 'now' and render these to the 'boardposts.html
+    template.
+    """
+    products = Product.objects.all()
+    return render(request, "sheetcakes.html", {"products": products})
+    
