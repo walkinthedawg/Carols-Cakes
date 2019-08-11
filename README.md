@@ -1,23 +1,14 @@
 # Welcome to Carols Cakes!
 
-A wonderful place you can buy world-class
+A wonderful website where you can buy world-class
 cakes from a world-class baker from Granite Bay California!
 
-Written by Steve Wood
+Written by Carol's spouse Steve Wood
 
 [![Build Status](https://travis-ci.org/walkinthedawg/jmis.svg?branch=master)](https://travis-ci.org/walkinthedawg/jmis)
 
-[![Build Status](https://travis-ci.org/hschafer2017/PCSwimming.svg)](https://travis-ci.org/hschafer2017/PCSwimming)
-
-# PCSwimming
-PC Swimming E-commerce App - Stream 4 Project
-
-This is a **fictional** ecommerce site, for the nature of this project, for a swim team where swimmers can collaborate and pay team fees, and the community can view upcoming events. Alumni can also post photos of their memories from being on the team. This project is based off a swim team coached by my father in Michigan. 
-
 # Demo
 A live demo of this project can be found [here](https://pcswimming-project.herokuapp.com/). This application is hosted on Heroku using a Postgres (MySQL Database)
-
-![Desktop Demo](https://raw.githubusercontent.com/hschafer2017/PCSwimming/master/README_Resources/Swimming.gif "Desktop Demo")
 
 # UX
 This site is intended for use by Swimmers and Alumni to allow them further ease of access into what's happening at team events, who is organizing them, a meet schedule, and a place to buy team gear for the season. By paying online, it makes it easier for the coach to keep track of who paid and what they ordered, rather than having to keep track of checks or multiple spreadsheets. 

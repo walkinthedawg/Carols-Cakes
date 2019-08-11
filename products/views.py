@@ -5,3 +5,29 @@ from .models import Product
 def all_products(request):
     products = Product.objects.all()
     return render(request, "products.html", {"products": products})
+    
+def about(request):
+    """
+    A view that will return a list of posts that were published
+    prior to 'now' and render these to the 'boardposts.html
+    template.
+    """
+    return render(request, "about.html")
+    
+def contact(request):
+    """
+    A view that will return a list of posts that were published
+    prior to 'now' and render these to the 'boardposts.html
+    template.
+    """
+    return render(request, "contact.html")
+    
+def weddingcakes(request):
+    """
+    A view that will return a list of posts that were published
+    prior to 'now' and render these to the 'boardposts.html
+    template.
+    """
+    products = Product.objects.all()
+    return render(request, "weddingcakes.html", {"products": products})
+    

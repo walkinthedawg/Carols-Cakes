@@ -16,11 +16,15 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from cakes.views import index
+from products.views import all_products, about, contact, weddingcakes
 from products import urls as urls_products
-
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', index, name='index'),
-    url(r'^products/', include(urls_products)),
-    ]
+    url(r'^index', index, name='index'),
+    url(r'^products', all_products, name='products'),
+    url(r'^about', about, name='about'),
+    url(r'^contact', contact, name='contact'),
+    url(r'^weddingcakes', weddingcakes, name='weddingcakes'),
+]
