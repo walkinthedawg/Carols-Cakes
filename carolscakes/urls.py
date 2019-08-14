@@ -18,6 +18,7 @@ from django.contrib import admin
 from cakes.views import index
 from products.views import all_products, about, contact, weddingcakes, birthdaycakes, specialoccasion, sheetcakes
 from products import urls as urls_products
+from accounts import urls as accounts_urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -30,4 +31,5 @@ urlpatterns = [
     url(r'^birthdaycakes', birthdaycakes, name='birthdaycakes'),
     url(r'^specialoccasion', specialoccasion, name='specialoccasion'),
     url(r'^sheetcakes', sheetcakes, name='sheetcakes'),
+    url(r'^accounts/', include(accounts_urls)),
 ]

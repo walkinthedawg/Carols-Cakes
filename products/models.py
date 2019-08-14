@@ -1,6 +1,7 @@
 from django.db import models
+from django.contrib.auth.models import User
 
-# Create your models here.
+# Create your Products models here.
 class Product(models.Model):
     name = models.CharField(max_length=254, default='')
     prod_desc = models.TextField()
@@ -10,3 +11,16 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+        
+
+
+# Create your User models here
+class Cakeuser(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE,
+                                related_name='user')
+    firstname = models.CharField(max_length=25)
+    lastname = models.CharField(max_length=25)
+
+    def __str__(self):
+        return self.user.username
+        

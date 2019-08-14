@@ -198,6 +198,10 @@ p a {
 	width: 100%;
 }
 
+.center{
+	text-align: center;
+}
+
 #content div.home {
 	margin: 0 auto;
 	overflow: hidden;
