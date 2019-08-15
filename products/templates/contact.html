@@ -1,1 +1,16 @@
-This is thge Contact page
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<div id="content">
+	<div class="center">
+		<h1>Contact Carol</h1>
+			<p>Mailing address: 1234 Fictional Street</p>
+			<p>Colorado Springs, CO 75846</p>
+			<p>Email to: Sales@carolscakes.com</p>
+			<p>Phone Toll Free: 1-800-Carols-Cakes</p>
+			<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12539.617797299028!2d-85.6724459!3d38.212115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38f88f85a5aa560e!2sThe+Bakery!5e0!3m2!1sen!2sus!4v1519156800977" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+	</div>
+</div>
+	
+{% endblock %}

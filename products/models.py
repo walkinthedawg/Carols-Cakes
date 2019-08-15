@@ -22,5 +22,5 @@ class Cakeuser(models.Model):
     lastname = models.CharField(max_length=25)
 
     def __str__(self):
-        return self.user.username
+        return self.Cakeuser.firstname
         
