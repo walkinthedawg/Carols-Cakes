@@ -16,11 +16,15 @@ class Product(models.Model):
 
 # Create your User models here
 class Cakeuser(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE,
+    Cakeuser = models.OneToOneField(User, on_delete=models.CASCADE,
                                 related_name='user')
-    firstname = models.CharField(max_length=25)
-    lastname = models.CharField(max_length=25)
-
+    firstname = models.CharField("First Name", max_length=25)
+    lastname = models.CharField("Last Name", max_length=25)
+    address = models.CharField("Address line 1", max_length=25)
+    city = models.CharField("City", max_length=25)
+    state = models.CharField("State", max_length=25)
+    zipcode = models.CharField("Zip Code", max_length=9)
+    
     def __str__(self):
         return self.Cakeuser.firstname
         
