@@ -3,4 +3,4 @@ __pycache__
 .~c9*
 env.py
 *.png
-media/
+media/env.py
