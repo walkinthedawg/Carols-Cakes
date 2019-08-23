@@ -1,8 +1,7 @@
 from django.shortcuts import render
 from products.models import Product
-from django.db.models import Q
 
-
-def do_search_products(request):
-    products = Product.objects.filter(Q(name__icontains=request.GET['q']) | Q(strap__icontains=request.GET['q']) | Q(description__icontains=request.GET['q']))
-    return render(request, "products.html", {"products":products})
+# Create your views here.
+def do_search(request):
+    products = Product.objects.filter(name__icontains=request.GET['q'])
+    return render(request, "search.html", {"products": products})

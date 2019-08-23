@@ -66,3 +66,11 @@ def sheetcakes(request):
     products = Product.objects.all()
     return render(request, "sheetcakes.html", {"products": products})
     
+def search(request):
+    """
+    A view that will return a list of posts that were published
+    prior to 'now' and render these to the 'boardposts.html
+    template.
+    """
+    return render(request, "search.html")
+    
