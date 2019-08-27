@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
 
     <title>Carols Cakes</title>
     
@@ -12,7 +12,7 @@
 	<link rel="shortcut icon" href="/static/images/favicon.ico" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/cerulean/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+    <link rel="stylesheet" type="text/css" href="/static/css/custom.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
@@ -33,7 +33,7 @@
 		<div>
 			<div>
 				<div id="logo">
-					<a href="index.html"><img src="{% static 'images/logo.gif' %}" alt="Logo"/></a>
+					<a href="index.html"><img src="{% static 'images/cclogo.png' %}" alt="Logo"/></a>
 				</div>
 				<div>
 					<div>
@@ -57,10 +57,7 @@
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="contact.html">Contact Us</a></li>
 			</ul>
-			<div id="section">
-			Slider goes in here...!
-		
-			</div>
+			
 		</div>
 		    {% if messages %}
         <div class="alert alert-success">
@@ -78,16 +75,8 @@
 	{% endblock %}
 	
 	<div id="footer">
-		<div class="home">
-			<div>
-				<div class="aside">
-					<div class="signup">
-						<div>
-							<b>Too <span>BUSY</span> to shop?</b>
-							<a href="contact.html">Sign up for free</a>
-							<p>and we&#39;ll deliver it on your doorstep</p>
-						</div>
-					</div>
+		<div class="center">
+			
 					<div class="connect">
 						<span>Follow Us</span>
 						<ul>
@@ -97,9 +86,7 @@
 							<li><a href="http://www.flickr.com/freewebsitetemplates/" target="_blank" class="flicker">Flicker</a></li>
 						</ul>
 					</div>
-				</div>
 				
-			</div>
 		</div>
 	
 		<div id="navigation">
