@@ -5,7 +5,7 @@ cakes from a world-class baker from Granite Bay California!
 
 Written by Carol's spouse Steve Wood
 
-[![Build Status](https://travis-ci.org/walkinthedawg/jmis.svg?branch=master)](https://travis-ci.org/walkinthedawg/jmis)
+[![Build Status](https://travis-ci.org/walkinthedawg/Carols-Cakes.svg?branch=master)](https://travis-ci.org/walkinthedawg/Carols-Cakes)
 
 # Demo
 A live demo of this project can be found [here](https://pcswimming-project.herokuapp.com/). This is hosted on Heroku using a Postgres Database.
@@ -29,8 +29,9 @@ The site has a fully functional backend for the site administrator.  It is passw
 4. Stripe Payment 
 5. JavaScript/jQuery
 6. HTML
-7. CSS
+7. CSS5
 8. Bootstrap (3.3.7)
+9. Python 3.4
 
 # Development Process 
 The backend was done first, with the styling added after. As the styling was progressing, and after it was mostly finished, there were some back-end additions that needed to be made for testing and bug fixes. 
@@ -86,16 +87,11 @@ The Discussion also allows the ability to create, edit, and delete comments as w
 The Events section allows both Swimmers and Alumni to view upcoming events, which include the date, location, opponent, and any other useful information relevant to the meet. 
 
 ## Features Left to Implement
-I would like to make the alumni section more sophisticated to allow the alumni to donate to the swim program. Furthermore, I would like to also create separate user group categories accessible from the admin page. This functionality would allow the coach to send out an email announcements to all swimmers, all alumni, or everyone registered from the admin page via the admin page. I would also like to create another user group for parents of swimmers to allow them to discuss team dinner planning, transportation, and other team-related matters that don't necessarily concern the swimmers. 
-
-I would also like to make modals for new posts and comments on the desktop instead of redirecting to a new page. I think this could improve the overall flow of the UX for desktop users. 
-
-For products, I would also like to implement an option to choose a size, so that team members can purchase their team suits through the site individually specifying their size, along with other apparel that is size-specific. The issue I ran into here, is that swim suits are in numeric sizes (28, 30, 32, etc), while jackets, t-shirts, and other apparel follow the small/medium/large format. Also, certain products, like team dues and equipment, will not have a size. I would like to make it so that some products have a size option (that can vary depending on the product) and some don't. 
 
 I hope to implement this website for commercial use by setting up the payment functionality to process real credit cards. 
 
 # Known Issues 
-The modal that is shown on page load for pages with forms (Discussion Post, Discussion Comment, Alumni Post), is in the body tag of ```home/base.html``` as ```onload=loadModal()``` with the JS function calling the modal in script tags on the HTML pages where the modal should appear when the page loads. There will be, by default, an error in the console on pages not rendering the modal because of this.
+
 
 # Credits 
 ## Content 
@@ -118,4 +114,4 @@ To set up and install everything in the requirements.txt, run the following comm
 $ sudo pip3 -r install requirements.txt
 ```
 
-Please note that I used Cloud9 for this project, so if you are using a different editor, the terminal commands may differ. Please consult the docs for the editor you're using for further information on editor-specific terminal commands. All secret keys for AWS, Stripe, Production, and Django Settings in Heroku will need to be obtained individually, as they are hidden. You can find a secret key generator for Django [here](https://www.miniwebtool.com/django-secret-key-generator/). 
+Please note that I used AWS Dev for this project, so if you are using a different editor, the terminal commands may differ. Please consult the docs for the editor you're using for further information on editor-specific terminal commands. All secret keys for AWS, Stripe, Production, and Django Settings in Heroku will need to be obtained individually, as they are hidden. You can find a secret key generator for Django [here](https://www.miniwebtool.com/django-secret-key-generator/). 
