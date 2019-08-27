@@ -8,28 +8,24 @@ Written by Carol's spouse Steve Wood
 [![Build Status](https://travis-ci.org/walkinthedawg/jmis.svg?branch=master)](https://travis-ci.org/walkinthedawg/jmis)
 
 # Demo
-A live demo of this project can be found [here](https://pcswimming-project.herokuapp.com/). This application is hosted on Heroku using a Postgres (MySQL Database)
+A live demo of this project can be found [here](https://pcswimming-project.herokuapp.com/). This is hosted on Heroku using a Postgres Database.
 
 # UX
-This site is intended for use by Swimmers and Alumni to allow them further ease of access into what's happening at team events, who is organizing them, a meet schedule, and a place to buy team gear for the season. By paying online, it makes it easier for the coach to keep track of who paid and what they ordered, rather than having to keep track of checks or multiple spreadsheets. 
+This site is an ecommerce website designed to sell cakes.  Carol is an actual real person.  She is my wife and a master cake decorator.  She has a huge passion for making cakes and loves her work.  The site is based on a free template from Freewebsitetemplates.com.  It had the right look and feel for what I wanted this project to be.  So alot of my work was modifying the template to work in Django ver 1.11.0  I am not an artsy kind of guy so the graphics and colors were a huge challenge for me.  So alot of Youtube videos and trial and error later...I was able to make this project presentable.
 
-No template was used to build this site. There were some specific UX and UI designs that were taken into consideration when styling this site. The footer was left off the desktop view to present a cleaner, more minimalistic approach to the design. By adding a footer in the desktop view, I would have risked an awkward contrast in colors to follow the transparent theme of the navbar. However, you can see the footer implemented on pages in the mobile and tablet view, since the background here is off-white. I also did not include it on any pages that are viewed to be 'an extension' of another. This was to create a continuous flow of the website, instead of making it constantly seem like you're going to a new page each time you click. 
+The site is basically self-explanatory and straight forward.  You choose what cakes you are interested in from the CAKES menu item.  There are 4 categories to choose from.  All the cakes offered have pictures of the cake, a brief description, and price.  Using the CART App from the school, its an easy matter to choose how many cakes you want, view and edit the cart as you please, and proceed to checkout.  Enter in your shipping information and credit card info and click submit.  Its as easy as that!
 
-There are two types of users- Swimmers and Alumni. The swimmers are able to see the discussion board, the shop section, and the events section, while the Alumni only have permission to see the Alumni posts and the events sections. 
+The user has access to Create a Profile, View their Profile, Login and Logout, and View and Edit their Cart from the top menu.  In the midlevel menu there are links for Home, Cakes, AboutUs, Services, Blog, and Contact pages.  
 
-When you click to see detail on a product or a swimmer/alumni post, you'll be able to also see all of the other posts or products in the desktop view. I chose this route to stay consistent with the background color scheme throughout the desktop view, and to allow users to toggle back and forth between multiple posts or multiple products without having to constantly go back to a seperate HTML. 
-This did pose a bit of an issue with the positioning, however. Since the navy blue size is position:relative and the off-white side is position:fixed, this initially posed a problem when scrolling, especially in the mobile and tablet views. I managed to get around this, however, by altering the height of the panel-body class and adding some extra space at the bottom. I wanted to keep these in a panel to be consistent with the panels used to show events, posts, and products. I chose this 'panel' look because it created a contrast with the navy blue in the desktop, while also creating a nice contrast with the mobile/tablet background via the box shadow. 
+At the bottom are social links to Twitter, Facebook, Flicker and Subscribe.  At the far bottom is the copyright for Carols Cakes and date.
 
-With the discussion board for Swimmers, it allows them to discuss team dinners, volunteer opportunities, and other team events. This strives for team inclusivity as all members of the swim team could register for an account. All posts and comments can be monitored by the Coach (a superuser). 
+The site has a fully functional backend for the site administrator.  It is password protected and no links are provided for the layuser to find.  Once the admin logs in, they have access to all the users, products, orders, and groups.  The admin can Read, Create, Update and Delete any of these items.  
 
-The swimmer on certain desktop pages was a minimalistic way to fill the off-white space on the right half when there was nothing selected. 
-
-I wanted to implement an ease of access with this site, to make it as simple and obvious as possible for both swimmers and alumni to navigate through the site while maintaining consistency throughout the design. 
 
 # Technologies 
-1. Django (2.0)
+1. Django (1.11.0)
 2. Heroku
-3. Postgres Database (mySQL)
+3. Postgres Database in Heroku
 4. Stripe Payment 
 5. JavaScript/jQuery
 6. HTML
@@ -103,23 +99,21 @@ The modal that is shown on page load for pages with forms (Discussion Post, Disc
 
 # Credits 
 ## Content 
-All content in the Events, Alumni, Discussion, and Shop sections is fictional and written by me, or courtesy of Portage Central Swimming and Diving. 
+All the content was written or modified by me.  Ideas came from other cake selling websites. Places and locations are fictional to protect Carols identity and location.
+While Carol is a real person, this site is fictional for the present time.  
 
 ## Media 
-The PC logo was provided by Portage Central Swimming and Diving. 
-
-Some product photos were taken from [Wikipedia](https://en.wikipedia.org/wiki/Swimfin) via a Creative Commons License. (No copyright infringement intended, as this is for educational use only.)
+All the cake pictures and styling images were provided by Freewebsitetemplates.com and is stored in the Static/Images directory.  I did make the Carols Cake logo in the top left corner using FreeLogoMaker.com and Photoshop.  
 
 ## Acknowledgments 
-The media query for the collapsed navbar regardless of viewport width was taken from this [site](https://www.codeply.com/go/iaM1zcNsQB/bootstrap-navbar-always-collapsed). 
+Thanks to Google Maps for the map on the Contact Us page.
 
-For the post comments, I followed the Django Girls Tutorial [here](https://tutorial-extensions.djangogirls.org/en/homework_create_more_models/), however, it was significantly modified to fit my project, and the ability to edit and delete comments was added. 
-
-# Plug-Ins 
-If you have the Grammarly plug-in in your browser, when you click on a form's textarea to create or edit a post or comment, the textarea box will jump to the top of the page and then reposition itself into the designated input area on the page. The plug-in will still work, and you will still be able to add and edit content if you're using the plug-in. If the plug-in is turned off, there is no issue with the textarea jumping around the page. Read more about this issue with the Grammarly plug-in [here](https://stackoverflow.com/questions/47957205/textarea-box-moving-on-click-on-initial-page-load). 
+Thanks to Amazon Web Services for my use of an Education Acct for AWS Services and IDE Development Services.  Thanks to the support staff who refunded my money and waived fees when I was unable to sign up for an Education Acct at first. We finally got all that straightened out and all was well thereafter.
 
 # Installation 
-If you're interested in cloning this repository, to set up and install everything in the requirements.txt run the following command in the terminal: 
+If you're interested in cloning this repository, it can be found here:  https://github.com/walkinthedawg/Carols-Cakes
+
+To set up and install everything in the requirements.txt, run the following command in the terminal: 
 ```
 $ sudo pip3 -r install requirements.txt
 ```
