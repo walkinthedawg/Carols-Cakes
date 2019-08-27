@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.contrib.auth.models import User
-from ecommerce.models import Product
+from .models import Product
 
 class TestViews(TestCase):
     
