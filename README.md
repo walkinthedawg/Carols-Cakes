@@ -43,7 +43,9 @@ Initially, I created a separate repository for the static and styling and then h
 # Testing
 ## Automated Testing  
 All automated testing was done using Travis-CI. 
-There is automated testing done for all apps with views, models, and forms (where applicable). The testing currently provides 86% coverage for the app. There is quite a bit of repetition in the testing, however, I would like to further refactor them and implement more specific tests for more coverage at a later date. 
+Click this icon/link to see my travis instance.
+[![Build Status](https://travis-ci.org/walkinthedawg/Carols-Cakes.svg?branch=master)](https://travis-ci.org/walkinthedawg/Carols-Cakes)
+There is automated testing done for all apps with views, models, and forms (where applicable). The testing currently provides 53% coverage for the website. 
 
 Coverage was tested by running the following in the command line: 
 ```
@@ -51,21 +53,14 @@ $ sudo pip3 install coverage
 $ coverage run manage.py test (app name)
 $ coverage html
 ```
-This will create a htmlcov folder. There are a bunch of files in this folder, so I included them in the .gitignore. 
+This will create a htmlcov folder. There are a bunch of files in this folder. I recommend you delete the entire htmlcov folder after you do the testing and DO NOT include it in Github.  Once you do a test, there is no reason to keep it.  Delete the folder and run the test again at a later time.
 
-To view the percentage of your app that's being tested for, open a new idle, and run the command 'htmlcov/index.html' in the idle. By clicking the link that appears when you run, it will be able to see the coverage in a new window. You can also view that all of your tests are passing by running the following in the command line: 
-```
-$ python3 manage.py test
-```
-To view the coverage report in the command line for the entire project, run the following commands, alternatively, you can run the report for just one app by only including that app in the source: 
-```
-$ coverage run --source=alumni,accounts,events,home,products,cart,posts,checkout manage.py test
-$ coverage report
-```
+To view the percentage of your app that's being tested for simply view the htmlcov/index.html file in a editor and look for the line near the top talking about percentages.
 
 ## Manual Testing: 
-Manual testing was done for all edit/post/delete/appearance functions in both the events and posts apps. This was to ensure that what was supposed to be deleting was deleting, and that only designated users (the post/comment owner or the superuser) was able to delete/edit the content selected. I also verified that the correct author showed up for the posts and comments. All links and forms are verified to be working correctly via manual testing. 
-
+Manual testing was done for all View/Delete/Update/Edit functions in the User, Products, Orders, and Groups apps. 
+Extensive testing was done for fictional users who want to buy 13 Wedding Cakes for example.  
+The entire process from start to finish was tested many times.
 
 The Stripe payment function has been verified with a test card and all transactions show up on the Stripe dashboard. 
 
@@ -86,7 +81,7 @@ Please note that I used AWS Dev for this project, so if you are using a differen
 
 ## Features Left to Implement
 
-I hope to implement this website for commercial use by setting up the payment functionality to process real credit cards. 
+I hope to implement this website for commercial use by setting up the payment functionality to process real credit cards. And use Stripe to its full capacity in processing payments via the website.
 
 # Credits 
 ## Content 
@@ -103,4 +98,4 @@ Thanks to Amazon Web Services for my use of an Education Acct for AWS Services a
 
 Thanks to Ed2Go and CodeInstitute for this Full Stack Programming Course.  This is my final project and hope to land that big job very soon!
 
-Thanks to Jan at GoldenSierra.com for the help anhd funding that made this adventure possible!
+Thanks to Jan at GoldenSierra.com for the help and funding that made this adventure possible!
