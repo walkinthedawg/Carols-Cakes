@@ -34,20 +34,31 @@ The site has a fully functional backend for the site administrator.  It is passw
 9. Python 3.4
 
 # Development Process 
-The backend was done first, with the styling added after. As the styling was progressing, and after it was mostly finished, there were some back-end additions that needed to be made for testing and bug fixes. 
+Since I used a free template for this website, I had to download the template from Freewebsitetemplates.com.  Then copy all the html and image files over to my AWS Dev.
 
-Once the styling was looking the way I wanted, I then realized that I had so much CSS that it was becoming unmanageable, and I knew that there were repeat property values declared for the same element. So, I copied the CSS I had here into a blank workspace, and moved it back to this one bit by bit with a mobile-first approach, significantly reducing my CSS repetition. There is minimal difference in styling. 
+I then installed Django and got a basic website up and running with that.  Then it was a matter of cut and paste to make a base.html file out of the index.html file.
 
-Initially, I created a separate repository for the static and styling and then hooked it up to the backend, prior to changing the initial styling layout for the project. That repository can be found [here](https://github.com/hschafer2017/PC-Static/commits/master), note that this is not the styling that the site currently has. I played around with different styling options to create the best look and feel for the site and user. The styling redesign that is the current styling was done in this workspace.
+I made a new index.html page and configured all the URL's and Views associated with that.  I then copied and installed from CodeInstitute the Cart, Checkout, Products, Ecommerce, Search, and Accounts Apps.  After quite a bit of coding changes and wrangling, it all worked!  That is the miracle of Django.  It handles much of the backend and functionality of all the Apps.  
+
+Then I had to load the database with products and data.  
+
+Then it came to modifying the README file and CSS to make it all look right.  That in itself took a couple weeks of time.
+
+Then I set up Travis to handle all the testing and fulfill the requirement for final approval of this project.  
+
+A matter of setting up hosting on Heroku was next.  Setting up a new Postgres DB and installing all requirements was next.  
+
+Final project submission should be done by the end of Sept 2019.
 
 # Testing
 ## Automated Testing  
 All automated testing was done using Travis-CI. 
+
 Click this icon/link to see my travis instance.
 
 [![Build Status](https://travis-ci.org/walkinthedawg/Carols-Cakes.svg?branch=master)](https://travis-ci.org/walkinthedawg/Carols-Cakes)
 
-There is automated testing done for all apps with views, models, and forms (where applicable). The testing currently provides 53% coverage for the website. 
+There is automated testing done for all apps with views, models, and forms (where applicable). The testing currently provides 83% coverage for the website. 
 
 Coverage was tested by running the following in the command line: 
 ```
@@ -61,6 +72,7 @@ To view the percentage of your app that's being tested for simply view the htmlc
 
 ## Manual Testing: 
 Manual testing was done for all View/Delete/Update/Edit functions in the User, Products, Orders, and Groups apps. 
+
 Extensive testing was done for fictional users who want to buy 13 Wedding Cakes for example.  
 The entire process from start to finish was tested many times.
 
