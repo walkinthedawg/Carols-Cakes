@@ -100,3 +100,7 @@ All the cake pictures and styling images were provided by Freewebsitetemplates.c
 Thanks to Google Maps for the map on the Contact Us page.
 
 Thanks to Amazon Web Services for my use of an Education Acct for AWS Services and IDE Development Services.  Thanks to the support staff who refunded my money and waived fees when I was unable to sign up for an Education Acct at first. We finally got all that straightened out and all was well thereafter.
+
+Thanks to Ed2Go and CodeInstitute for this Full Stack Programming Course.  This is my final project and hope to land that big job very soon!
+
+Thanks to Jan at GoldenSierra.com for the help anhd funding that made this adventure possible!
