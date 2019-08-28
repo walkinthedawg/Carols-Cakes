@@ -74,23 +74,19 @@ Please click on this link to see a screen shot of 3 transactions I made recently
 http://www.walkinthedawgband.com/assets/photos/screenshot.png
 
 
-# Features
-Only the head coach has access to the admin page. Since it is their team's site, it makes it easier for them to monitor all account activity and blog content. They are the only ones who will be allowed to make master changes to the site. This site has ecommerce and blog functionality. Payments are processed through Stripe, and since it is a fictional site, it only processes 'test card payments.' The events section allows the public, alumni, and swimmers to see upcoming events. 
+# Installation 
+If you're interested in cloning this repository, it can be found here:  https://github.com/walkinthedawg/Carols-Cakes
 
-The Shop section allows swimmers to pay their dues and purchase team-related equipment for the season. They are able to write in a size, as suits, caps, jackets, and other team apparel do not all follow the S, M, L, XL format. Sizes options are listed in the product's detail. 
+To set up and install everything in the requirements.txt, run the following command in the terminal: 
+```
+$ sudo pip3 -r install requirements.txt
+```
 
-The Discussion (Posts) and Alumni sections have different apps because the goal was to keep them as separate as possible, as if they were included in the same app, there would have been too much content in one app. Also, there would have needed to be sorting of the type of author of the post (swimmer or alumni), and while it would have not been an issue if a swimmer or alumni was viewing it, it would be a bit of a mess for the coach to view. Also, there are certain fields that the Alumni Post Form has (images, for example) that the Post Form for the Swimmers doesn't have. 
-
-The Discussion also allows the ability to create, edit, and delete comments as well as posts. This way, swimmers are able to comment on posts asking for volunteers or with questions from previous content posted. 
-
-The Events section allows both Swimmers and Alumni to view upcoming events, which include the date, location, opponent, and any other useful information relevant to the meet. 
+Please note that I used AWS Dev for this project, so if you are using a different editor, the terminal commands may differ. Please consult the docs for the editor you're using for further information on editor-specific terminal commands. All secret keys for AWS, Stripe, Production, and Django Settings in Heroku will need to be obtained individually, as they are hidden. You can find a secret key generator for Django [here](https://www.miniwebtool.com/django-secret-key-generator/). 
 
 ## Features Left to Implement
 
 I hope to implement this website for commercial use by setting up the payment functionality to process real credit cards. 
-
-# Known Issues 
-
 
 # Credits 
 ## Content 
@@ -104,13 +100,3 @@ All the cake pictures and styling images were provided by Freewebsitetemplates.c
 Thanks to Google Maps for the map on the Contact Us page.
 
 Thanks to Amazon Web Services for my use of an Education Acct for AWS Services and IDE Development Services.  Thanks to the support staff who refunded my money and waived fees when I was unable to sign up for an Education Acct at first. We finally got all that straightened out and all was well thereafter.
-
-# Installation 
-If you're interested in cloning this repository, it can be found here:  https://github.com/walkinthedawg/Carols-Cakes
-
-To set up and install everything in the requirements.txt, run the following command in the terminal: 
-```
-$ sudo pip3 -r install requirements.txt
-```
-
-Please note that I used AWS Dev for this project, so if you are using a different editor, the terminal commands may differ. Please consult the docs for the editor you're using for further information on editor-specific terminal commands. All secret keys for AWS, Stripe, Production, and Django Settings in Heroku will need to be obtained individually, as they are hidden. You can find a secret key generator for Django [here](https://www.miniwebtool.com/django-secret-key-generator/). 
