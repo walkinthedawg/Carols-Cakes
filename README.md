@@ -44,7 +44,9 @@ Initially, I created a separate repository for the static and styling and then h
 ## Automated Testing  
 All automated testing was done using Travis-CI. 
 Click this icon/link to see my travis instance.
+
 [![Build Status](https://travis-ci.org/walkinthedawg/Carols-Cakes.svg?branch=master)](https://travis-ci.org/walkinthedawg/Carols-Cakes)
+
 There is automated testing done for all apps with views, models, and forms (where applicable). The testing currently provides 53% coverage for the website. 
 
 Coverage was tested by running the following in the command line: 
