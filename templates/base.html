@@ -33,7 +33,7 @@
 		<div>
 			<div>
 				<div id="logo">
-					<a href="index.html"><img src="{% static 'images/cclogo.png' %}" alt="Logo"/></a>
+					<a href="{% url 'index' %}"><img src="{% static 'images/cclogo.png' %}" alt="Logo"/></a>
 				</div>
 				<div>
 					<div>
@@ -50,12 +50,12 @@
 				</div>
 			</div>
 			<ul>
-				<li class="current"><a href="index.html">Home</a></li>
-				<li><a href="products.html">Cakes</a></li>
-				<li><a href="about.html">About us</a></li>
+				<li class="current"><a href="{% url 'index' %}">Home</a></li>
+				<li><a href="{% url 'products' %}">Cakes</a></li>
+				<li><a href="{% url 'about' %}">About us</a></li>
 				<li><a href="services.html">Services</a></li>
 				<li><a href="blog.html">Blog</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="{% url 'contact' %}">Contact Us</a></li>
 			</ul>
 			
 		</div>
