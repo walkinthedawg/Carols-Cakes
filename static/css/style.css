@@ -896,6 +896,8 @@ p a {
 #footer {
 	background: #703f54;
 	width: 100%;
+	color: #ffffff;
+	padding-top: 5px;
 }
 
 #footer div.home {
