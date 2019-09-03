@@ -60,7 +60,8 @@
 .btn-product {
     height: 38px;
     width: 100px;
-    padding: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
     background-color: #afccd2;
     color: #545e75;
 }

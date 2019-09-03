@@ -7,13 +7,11 @@
     <!-- Page Header -->
     
       <div class="container-fluid">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="row text-center">
+        <div id="content">
+	       <div class="center">
             {% if product_count != 0 %}
-            <div class="site-heading">
               <h1>Cart</h1>
               <span class="subheading">View and pay for items</span>
-            </div>
             {% endif %}
           </div>
         </div>
@@ -71,8 +69,7 @@
           <div class="row">
             <div class="col-12">
                 <div class="custom-checkout">
-                  <p>Total:</p>
-                  <p><span class="glyphicon glyphicon-dollar" aria-hidden="true"></span>${{ total }}</p>
+                  <p>Total:${{ total }}</p>
                   <a href="{% url 'checkout' %}" class="btn btn-product" role="button"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>Checkout</a>
                 </div>
               </div>
