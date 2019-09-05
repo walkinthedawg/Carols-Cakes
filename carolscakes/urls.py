@@ -19,7 +19,7 @@ from cakes.views import index
 from django.views import static
 from django.views.generic import RedirectView
 from django.views.static import serve
-from products.views import all_products, about, contact, weddingcakes, birthdaycakes, specialoccasion, sheetcakes
+from products.views import all_products, about, contact, weddingcakes, birthdaycakes, specialoccasion, sheetcakes, testimonials
 from products import urls as urls_products
 from accounts import urls as accounts_urls
 from search import urls as urls_search
@@ -38,6 +38,7 @@ urlpatterns = [
     url(r'^birthdaycakes', birthdaycakes, name='birthdaycakes'),
     url(r'^specialoccasion', specialoccasion, name='specialoccasion'),
     url(r'^sheetcakes', sheetcakes, name='sheetcakes'),
+    url(r'^testimonials', testimonials, name='testimonials'),
     url(r'^accounts/', include(accounts_urls)),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
     url(r'^accounts/', include(accounts_urls)),

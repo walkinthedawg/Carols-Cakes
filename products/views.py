@@ -61,3 +61,9 @@ def search(request):
     """
     return render(request, "search.html")
     
+def testimonials(request):
+    """
+    A view that will return a list of search results to the search.html template.
+    """
+    return render(request, "testimonials.html")
+    

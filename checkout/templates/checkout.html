@@ -24,12 +24,9 @@
                     <p class="product-description">{{ item.product.prod_desc }}</p>
                     <p>Quantity: {{ item.quantity }}</p>
                     <p>Price each: $ {{ item.product.price }}</p>
+                    <p>Total:$ {{ total }}</p>
                 </div>
             {% endfor %}
-        </div>
-        
-        <div class="row">
-            <p>Total:$ {{ total }}</p>
         </div>
         
         <div class="row">
@@ -47,7 +44,7 @@
                 <div class="form-group col-md-6">
                     {{ payment_form | as_bootstrap }}
                 </div>
-            
+           
                 {% csrf_token %}
                 <div class="form-group col-md-6">
                     <input class=" btn btn-primary" id="submit_payment_btn" name="commit" type="submit" value="Submit Payment">

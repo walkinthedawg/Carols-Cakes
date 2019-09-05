@@ -138,7 +138,7 @@ caption p {
 
 .panel-body {
     height: 100%;
-    border: 1px solid #ddd;
+    border: 0px solid #ddd;
 }
 
 .product-description {
@@ -274,7 +274,9 @@ caption p {
 .product-box {
     border: 1px solid grey;
     margin: 5px;
+    padding-top: 20px;
 }
+
 
 /*About*/
 
