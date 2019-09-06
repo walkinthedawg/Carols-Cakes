@@ -194,6 +194,14 @@ p a {
 	float: right;
 }
 
+#faq-wrapper{
+	text-align: justify;
+}
+
+#faq-container{
+	display: inline-block;
+}
+
 dl.faq button {
   margin: 0;
   padding: 0;
