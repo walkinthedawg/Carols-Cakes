@@ -39,7 +39,10 @@
         <div class="col-12">
           {% if product_count == 0 %}
             <p align="center">
-                   There is nothing in your cart. <a href="{% url 'products' %}">Click here to go to Cakes</a>
+                   There is nothing in your cart...
+            </p>
+            <p align="center">
+                   <a href="{% url 'products' %}">Click here to go to Cakes</a>
             </p>
         </div>
       </div>
