@@ -6,7 +6,7 @@ body {
 	font-family: Verdana;
 	font-size: 12px;
 	margin: 0;
-	min-width: 960px;
+	/*min-width: 960px;*/
 	padding: 0;
 	width: 100%;
 }
@@ -29,7 +29,7 @@ p a {
 
 #header div {
 	margin: 0 auto;
-	width: 960px;
+	width: 960px;   /*This one could be trouble*/
 	text-align: center;
 	height: auto;
 }
@@ -40,7 +40,7 @@ p a {
 	position: relative;
 }
 
-#header div div div#logo {
+#header div div #logo {
 	float: left;
 	width: 331px;
 }
@@ -54,10 +54,10 @@ p a {
 #header div div div div {
 	display: block;
 	float: none;
-    height: auto;
-    padding-bottom: 40px;
+  height: auto;
+  padding-bottom: 40px;
 	padding-left: 134px;
-    margin-top: 20px;
+  margin-top: 20px;
 	overflow: hidden;
 	width: auto;
 }
@@ -73,7 +73,7 @@ p a {
 	text-decoration: none;
 }
 
-#header div div div div a.last {
+#header div div div div .last {
 	border: 0;
 	padding-right: 0;
 }
@@ -91,7 +91,7 @@ p a {
 	line-height: 30px;
 }
 
-#header div div div form input#search {
+#header div div div form #search {
 	background: url(../images/input-search.gif) no-repeat 0 0;
 	border: 0;
 	height: 30px;
@@ -99,7 +99,7 @@ p a {
 	width: 220px;
 }
 
-#header div div div form input#searchbtn {
+#header div div div form #searchbtn {
 	background: url(../images/sprite-buttons.gif) no-repeat 0 -291px;
 	border: none;
 	height: 30px;

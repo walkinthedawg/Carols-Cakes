@@ -1,9 +1,9 @@
 # Welcome to Carols Cakes!
 
 A wonderful website where you can buy world-class
-cakes from a world-class baker from Granite Bay California!
+cakes from a world-class baker from Boulder Colorado!
 
-Written by Carol's spouse Steve Wood
+Written by Steve Wood
 
 [![Build Status](https://travis-ci.org/walkinthedawg/Carols-Cakes.svg?branch=master)](https://travis-ci.org/walkinthedawg/Carols-Cakes)
 
@@ -15,15 +15,15 @@ This site is an ecommerce website designed to sell cakes.  Carol is an actual re
 
 The site is basically self-explanatory and straight forward.  You choose what cakes you are interested in from the CAKES menu item.  There are 4 categories to choose from.  All the cakes offered have pictures of the cake, a brief description, and price.  Using the CART App from the school, its an easy matter to choose how many cakes you want, view and edit the cart as you please, and proceed to checkout.  Enter in your shipping information and credit card info and click submit.  Its as easy as that!
 
-The user has access to Create a Profile, View their Profile, Login and Logout, and View and Edit their Cart from the top menu.  In the midlevel menu there are links for Home, Cakes, AboutUs, Services, Blog, and Contact pages.  
+The user has access to Create a Profile, View their Profile, Login and Logout, and View and Edit their Cart from the top menu.  In the midlevel menu there are links for Home, Cakes, AboutUs, Testimonies, Blog, and Contact pages.  
 
-At the bottom are social links to Twitter, Facebook, Flicker and Subscribe.  At the far bottom is the copyright for Carols Cakes and date.
+At the bottom are social links to Twitter, Facebook, Flicker and Subscribe.  At the far bottom is the copyright for Carols Cakes and date.  At the bottom right is a expandable social link Javascript app.  Real cool.
 
 The site has a fully functional backend for the site administrator.  It is password protected and no links are provided for the layuser to find.  Once the admin logs in, they have access to all the users, products, orders, and groups.  The admin can Read, Create, Update and Delete any of these items.  
 
 
 # Technologies 
-1. Django (1.11.0)
+1. Django (1.11.23)
 2. Heroku
 3. Postgres Database in Heroku
 4. Stripe Payment 
@@ -111,5 +111,6 @@ Thanks to Google Maps for the map on the Contact Us page.
 Thanks to Amazon Web Services for my use of an Education Acct for AWS Services and IDE Development Services.  Thanks to the support staff who refunded my money and waived fees when I was unable to sign up for an Education Acct at first. We finally got all that straightened out and all was well thereafter.
 
 Thanks to Ed2Go and CodeInstitute for this Full Stack Programming Course.  This is my final project and hope to land that big job very soon!
+Thanks to W3.org for the expandable social links app.  Thanks to W3Schools for coding help.
 
 Thanks to Jan at GoldenSierra.com for the help and funding that made this adventure possible!
