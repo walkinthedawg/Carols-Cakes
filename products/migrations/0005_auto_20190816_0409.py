@@ -16,35 +16,35 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='cakeuser',
             name='address',
-            field=models.CharField(default=django.utils.timezone.now, max_length=25, verbose_name='Address line 1'),
+            field=models.CharField(default=django.utils.timezone.now, max_length=250, verbose_name='Address line 1'),
             preserve_default=False,
         ),
         migrations.AddField(
             model_name='cakeuser',
             name='city',
-            field=models.CharField(default=django.utils.timezone.now, max_length=25, verbose_name='City'),
+            field=models.CharField(default=django.utils.timezone.now, max_length=205, verbose_name='City'),
             preserve_default=False,
         ),
         migrations.AddField(
             model_name='cakeuser',
             name='state',
-            field=models.CharField(default=django.utils.timezone.now, max_length=25, verbose_name='State'),
+            field=models.CharField(default=django.utils.timezone.now, max_length=205, verbose_name='State'),
             preserve_default=False,
         ),
         migrations.AddField(
             model_name='cakeuser',
             name='zipcode',
-            field=models.CharField(default=django.utils.timezone.now, max_length=9, verbose_name='Zip Code'),
+            field=models.CharField(default=django.utils.timezone.now, max_length=90, verbose_name='Zip Code'),
             preserve_default=False,
         ),
         migrations.AlterField(
             model_name='cakeuser',
             name='firstname',
-            field=models.CharField(max_length=25, verbose_name='First Name'),
+            field=models.CharField(max_length=250, verbose_name='First Name'),
         ),
         migrations.AlterField(
             model_name='cakeuser',
             name='lastname',
-            field=models.CharField(max_length=25, verbose_name='Last Name'),
+            field=models.CharField(max_length=250, verbose_name='Last Name'),
         ),
     ]

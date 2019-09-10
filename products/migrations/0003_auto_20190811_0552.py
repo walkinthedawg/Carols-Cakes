@@ -23,6 +23,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='product',
             name='category',
-            field=models.CharField(default='', max_length=20),
+            field=models.CharField(default='', max_length=200),
         ),
     ]
