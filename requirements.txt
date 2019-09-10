@@ -22,7 +22,6 @@ gunicorn==19.9.0
 httplib2==0.9.2
 hyperlink==19.0.0
 idna==2.8
-ikp3db==1.1.4
 incremental==17.5.0
 isort==4.3.21
 jedi==0.11.1
