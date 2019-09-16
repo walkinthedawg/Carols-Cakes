@@ -1,1 +1,1 @@
-web: gunicorn carolscakes.wsgi.application
+web: gunicorn carolscakes.wsgi:application
