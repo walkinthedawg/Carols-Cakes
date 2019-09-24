@@ -280,8 +280,11 @@ dl.faq button[aria-expanded="true"]::before {
 }
 
 
+
 #content #services, #content #about  {
 	overflow: hidden;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 #content #about div.aside,
@@ -371,15 +374,15 @@ dl.faq button[aria-expanded="true"]::before {
 #content #services div.section #visitshop div p span,
 #content div #visitshop div p span {
 	color: #d1467d;
-    display: block;
-    font-family: Trebuchet MS;
-    font-size: 28px;
+  display: block;
+  font-family: Trebuchet MS;
+  font-size: 28px;
 	font-style: italic;
 	height: auto;
-    position: static;
-    right: 0;
-    top: 0;
-    width: auto;
+  position: static;
+  right: 0;
+  top: 0;
+  width: auto;
 }
 
 #content #about div.section #visitshop div a.visit,
