@@ -5,8 +5,6 @@ cakes from a world-class baker from Boulder Colorado!
 
 Written by Steve Wood
 
-[![Build Status](https://travis-ci.org/walkinthedawg/jmis.svg?branch=master)](https://travis-ci.org/walkinthedawg/jmis)
-
 # Demo
 A live demo of this project can be found [here](https://pcswimming-project.herokuapp.com/). This is hosted on Heroku using a Postgres Database.
 
