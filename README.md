@@ -54,7 +54,7 @@ All automated testing was done using Travis-CI.
 
 Click this icon/link to see my travis instance.
 
-[![Build Status](https://travis-ci.org/walkinthedawg/jmis.svg?branch=master)](https://travis-ci.org/walkinthedawg/jmis)
+[![Build Status](https://travis-ci.org/walkinthedawg/Carols-Cakes.svg?branch=master)](https://travis-ci.org/walkinthedawg/Carols-Cakes)
 
 There is automated testing done for all apps with views, models, and forms (where applicable). The testing currently provides 83% coverage for the website. 
 
@@ -101,12 +101,12 @@ I got very little help from mentors and tutors.  I basically had to stumble thru
 4) One notable problem was when I was required to switch from SQLite3 to Postgres databases.  I had numerous errors occur with cryptic error messages.  Receiving no help from tutors or mentors, I finally figured out it was a bad file called db.sqlite3 and a bad migration file called 0004_auto_20190816.py
 I LOST AT LEAST TWO WEEKS on just that one error.
 
-5) Travis does not work.  It fails at the very end of its testing for some cryptic Database thing it does not like.  It looks like a problem with Travis since the Database works fine for AWS Dev and Heroku.  So that is why Travis shows it is failed.  NOT MY PROBLEM.  I have asked for help at least 4 times from tutors and nobody has even responded to my pleas for help on this Travis problem.
+5) Travis does not work.  It fails at the very end of its testing for some cryptic Database thing it does not like.  It looks like a problem with Travis since the Database works fine for AWS Dev and Heroku.  So that is why Travis shows it is failed.  NOT MY PROBLEM.  I have asked for help at least 4 times from tutors and nobody has even responded to my pleas for help on this Travis problem.  Travis was working great until I had a problem with AWS wanting to change Django from version 1.x to 2.2.3 on its own!  I asked for help from Michael at Tutor Help and he suggested I uninstall everything, re-write requirements.txt to show Django==1.11.23, and reinstall everything again.  Luckily that fixed the AWS errors but since then Travis has not worked and nobody can help me to fix it.  Like I said before, AWS and Heroku works fine with the DB.  Its a problem with Travis.  NOT MY PROBLEM.
 
 6) On the CheckOut Form, the MONTH and YEAR fields are full width.  There was no way I could figure out to override the CSS that controls it in bootstrap.min.css.  I figure it is bad coding to try to re-write bootstrap.min.css.  Don't you agree?
 I asked Michael from Tutor Help about this and he had no solution either.  Again...NOT MT FAULT that I was not able to fix this.
 
-7) Since I used a template for this site, it was written before responsive became fashionable.  So to convert this template to something that Bootstrap could change to responsive would require much more time, which I have run out of as outlined above.
+7) Since I used a template for this site, it was written before responsive became fashionable.  So to convert this template to something that Bootstrap could change to responsive would require much more time, which I have run out of as outlined above.  My site looks great on laptops and desktops.  
 
 
 # Credits 
