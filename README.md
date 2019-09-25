@@ -91,9 +91,15 @@ $ sudo pip3 -r install requirements.txt
 
 Please note that I used AWS Dev for this project, so if you are using a different editor, the terminal commands may differ. Please consult the docs for the editor you're using for further information on editor-specific terminal commands. All secret keys for AWS, Stripe, Production, and Django Settings in Heroku will need to be obtained individually, as they are hidden. You can find a secret key generator for Django [here](https://www.miniwebtool.com/django-secret-key-generator/). 
 
-## Features Left to Implement
+## Final uncurable problems that occurred
 
-I hope to implement this website for commercial use by setting up the payment functionality to process real credit cards. And use Stripe to its full capacity in processing payments via the website.
+Due to my class ending on Oct 2nd, 2019....I have run out of time to fully complete this project to my satisfaction.  
+I have had to submit this project with some things left to do.
+A huge problem happened when C9 was replaced by AWS.  I lost at least a full month of production due to not being able to get AWS up.
+I got very little help from mentors and tutors.  I basically had to stumble thru it myself.  
+I have had many times where I was stuck on a problem and dead in the water.  I got very little help again and lost much time trying to figure things out myself.   
+One notable problem was when I was required to switch from SQLite3 to Postgres databases.  I had numerous errors occur with cryptic error messages.  Receiving no help from tutors or mentors, I finally figured out it was a bad file called db.sqlite3 and a bad migration file called 0004_auto_20190816.py
+I lost at least two weeks on just that one error.
 
 # Credits 
 ## Content 
