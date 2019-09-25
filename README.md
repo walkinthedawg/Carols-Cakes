@@ -106,7 +106,9 @@ I LOST AT LEAST TWO WEEKS on just that one error.
 6) On the CheckOut Form, the MONTH and YEAR fields are full width.  There was no way I could figure out to override the CSS that controls it in bootstrap.min.css.  I figure it is bad coding to try to re-write bootstrap.min.css.  Don't you agree?
 I asked Michael from Tutor Help about this and he had no solution either.  None of the other Tutors had any solution.  Again...NOT MT FAULT that I was not able to fix this.
 
-7) Since I used a template for this site, it was written before responsive became fashionable.  So to convert this template to something that Bootstrap could change to responsive would require much more time, which I have run out of as explained in item (1)above.  My site looks great on laptops and desktops.  
+7) Since I used a template for this site, it was written before responsive became fashionable.  So to convert this template to something that Bootstrap could change to responsive would require much more time, which I have run out of as explained in item (1) above.  My site looks great on laptops and desktops.  
+
+8) If you search for cakes and only have one or two results, it displays to the left.  I was unable to fix this little problem due to running out of time.  I spent all my time on bigger problems.  It works fine if there are 3 or more results.  
 
 
 # Credits 
