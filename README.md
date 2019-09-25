@@ -91,7 +91,7 @@ $ sudo pip3 -r install requirements.txt
 
 Please note that I used AWS Dev for this project, so if you are using a different editor, the terminal commands may differ. Please consult the docs for the editor you're using for further information on editor-specific terminal commands. All secret keys for AWS, Stripe, Production, and Django Settings in Heroku will need to be obtained individually, as they are hidden. You can find a secret key generator for Django [here](https://www.miniwebtool.com/django-secret-key-generator/). 
 
-## Final uncurable problems that occurred
+## Uncurable problems that occurred
 
 1) Due to my class ending on Oct 2nd, 2019....I have run out of time to fully complete this project to my satisfaction.  
 I have had to submit this project with some things left to do.
@@ -106,7 +106,7 @@ I LOST AT LEAST TWO WEEKS on just that one error.
 6) On the CheckOut Form, the MONTH and YEAR fields are full width.  There was no way I could figure out to override the CSS that controls it in bootstrap.min.css.  I figure it is bad coding to try to re-write bootstrap.min.css.  Don't you agree?
 I asked Michael from Tutor Help about this and he had no solution either.  None of the other Tutors had any solution.  Again...NOT MT FAULT that I was not able to fix this.
 
-7) Since I used a template for this site, it was written before responsive became fashionable.  So to convert this template to something that Bootstrap could change to responsive would require much more time, which I have run out of as outlined above.  My site looks great on laptops and desktops.  
+7) Since I used a template for this site, it was written before responsive became fashionable.  So to convert this template to something that Bootstrap could change to responsive would require much more time, which I have run out of as explained in item (1)above.  My site looks great on laptops and desktops.  
 
 
 # Credits 
