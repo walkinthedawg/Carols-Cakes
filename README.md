@@ -6,7 +6,7 @@ cakes from a world-class baker from Boulder Colorado!
 Written by Steve Wood
 
 # Demo
-A live demo of this project can be found [here](https://pcswimming-project.herokuapp.com/). This is hosted on Heroku using a Postgres Database.
+A live demo of this project can be found [here](https://carols-cakes.herokuapp.com/index). This is hosted on Heroku using a Postgres Database.
 
 # UX
 This site is an ecommerce website designed to sell cakes.  Carol is an actual real person.  She is my wife and a master cake decorator.  She has a huge passion for making cakes and loves her work.  The site is based on a free template from Freewebsitetemplates.com.  It had the right look and feel for what I wanted this project to be.  So alot of my work was modifying the template to work in Django ver 1.11.0  I am not an artsy kind of guy so the graphics and colors were a huge challenge for me.  So alot of Youtube videos and trial and error later...I was able to make this project presentable.
