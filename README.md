@@ -5,7 +5,7 @@ cakes from a world-class baker from Boulder Colorado!
 
 Written by Steve Wood
 
-[![Build Status](https://travis-ci.org/walkinthedawg/Carols-Cakes.svg?branch=master)](https://travis-ci.org/walkinthedawg/Carols-Cakes)
+[![Build Status](https://travis-ci.org/walkinthedawg/jmis.svg?branch=master)](https://travis-ci.org/walkinthedawg/jmis)
 
 # Demo
 A live demo of this project can be found [here](https://pcswimming-project.herokuapp.com/). This is hosted on Heroku using a Postgres Database.
@@ -56,7 +56,7 @@ All automated testing was done using Travis-CI.
 
 Click this icon/link to see my travis instance.
 
-[![Build Status](https://travis-ci.org/walkinthedawg/Carols-Cakes.svg?branch=master)](https://travis-ci.org/walkinthedawg/Carols-Cakes)
+[![Build Status](https://travis-ci.org/walkinthedawg/jmis.svg?branch=master)](https://travis-ci.org/walkinthedawg/jmis)
 
 There is automated testing done for all apps with views, models, and forms (where applicable). The testing currently provides 83% coverage for the website. 
 
