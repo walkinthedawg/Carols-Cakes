@@ -93,13 +93,21 @@ Please note that I used AWS Dev for this project, so if you are using a differen
 
 ## Final uncurable problems that occurred
 
-Due to my class ending on Oct 2nd, 2019....I have run out of time to fully complete this project to my satisfaction.  
+1) Due to my class ending on Oct 2nd, 2019....I have run out of time to fully complete this project to my satisfaction.  
 I have had to submit this project with some things left to do.
-A huge problem happened when C9 was replaced by AWS.  I lost at least a full month of production due to not being able to get AWS up.
-I got very little help from mentors and tutors.  I basically had to stumble thru it myself.  
-I have had many times where I was stuck on a problem and dead in the water.  I got very little help again and lost much time trying to figure things out myself.   
-One notable problem was when I was required to switch from SQLite3 to Postgres databases.  I had numerous errors occur with cryptic error messages.  Receiving no help from tutors or mentors, I finally figured out it was a bad file called db.sqlite3 and a bad migration file called 0004_auto_20190816.py
-I lost at least two weeks on just that one error.
+2) A huge problem happened when C9 was replaced by AWS.  I lost AT LEAST A FULL MONTH OF PRODUCTION due to not being able to get AWS up.
+I got very little help from mentors and tutors.  I basically had to stumble thru it myself. 
+3) I have had many times where I was stuck on a problem and dead in the water.  I got very little help again and lost much time trying to figure things out myself.   
+4) One notable problem was when I was required to switch from SQLite3 to Postgres databases.  I had numerous errors occur with cryptic error messages.  Receiving no help from tutors or mentors, I finally figured out it was a bad file called db.sqlite3 and a bad migration file called 0004_auto_20190816.py
+I LOST AT LEAST TWO WEEKS on just that one error.
+
+5) Travis does not work.  It fails at the very end of its testing for some cryptic Database thing it does not like.  It looks like a problem with Travis since the Database works fine for AWS Dev and Heroku.  So that is why Travis shows it is failed.  NOT MY PROBLEM.  I have asked for help at least 4 times from tutors and nobody has even responded to my pleas for help on this Travis problem.
+
+6) On the CheckOut Form, the MONTH and YEAR fields are full width.  There was no way I could figure out to override the CSS that controls it in bootstrap.min.css.  I figure it is bad coding to try to re-write bootstrap.min.css.  Don't you agree?
+I asked Michael from Tutor Help about this and he had no solution either.  Again...NOT MT FAULT that I was not able to fix this.
+
+7) Since I used a template for this site, it was written before responsive became fashionable.  So to convert this template to something that Bootstrap could change to responsive would require much more time, which I have run out of as outlined above.
+
 
 # Credits 
 ## Content 
