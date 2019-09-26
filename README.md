@@ -52,7 +52,7 @@ Final project submission should be done by the end of Sept 2019.
 ## Automated Testing  
 All automated testing was done using Travis-CI. 
 
-Click this icon/link to see my travis instance.
+Click this icon/link to see my travis instance.  Notice that it says failed?  Please refer to: ## Uncurable problems that occurred (5) below for explanation.
 
 [![Build Status](https://travis-ci.org/walkinthedawg/Carols-Cakes.svg?branch=master)](https://travis-ci.org/walkinthedawg/Carols-Cakes)
 
@@ -109,6 +109,8 @@ I asked Michael from Tutor Help about this and he had no solution either.  None 
 7) Since I used a template for this site, it was written before responsive became fashionable.  So to convert this template to something that Bootstrap could change to responsive would require much more time, which I have run out of as explained in item (1) above.  My site looks great on laptops and desktops.  
 
 8) If you search for cakes and only have one or two results, it displays to the left.  I was unable to fix this little problem due to running out of time.  I spent all my time on bigger problems.  It works fine if there are 3 or more results.  
+
+9) I tried to fix a Github warning about Django having a security problem with ver 1.11.17.  So based on THEIR recommendation, I installed Django 1.22.23.  Well, that was a wrong move!  It completely broke my AWS Dev environment.  I tried for 3 days to reverse it and get AWS back up.  Again, I tried to get help from Tutors and Mentors and nothing.  Nobody could help me.  So for the final 2 weeks of this project, I had no dev environment to complete the project.  All I could do was write changes to Github and watch Heroku to see if it worked.  Another reason I could not complete this project to my satisfaction.  Luckily, Heroku is working and you can see my project live.
 
 
 # Credits 
